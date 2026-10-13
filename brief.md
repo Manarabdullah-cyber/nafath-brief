@@ -3,7 +3,7 @@ Version: NAFATH-V3
 Your track: Cybersecurity
 
 Overview
-[Write 100–150 words explaining how software, AI, mobile, networking, cybersecurity, and data work together to create a trustworthy public-service AI assistant.]
+A dependable public-service AI assistant relies on six interconnected technological domains. Software engineering implements versioning protocols to enable developers to deploy service updates with confidence. Artificial intelligence leverages Retrieval-Augmented Generation (RAG) to locate pertinent information prior to formulating responses. Mobile security safeguards data transmission between applications and backend infrastructure. Networking facilitates dependable connectivity through IPv4 and IPv6 protocols as the ecosystem of connected devices expands. Cybersecurity defends the assistant against vulnerabilities including prompt injection attacks. Data protection mechanisms guarantee that conversation records are managed ethically and user confidentiality is upheld. These disciplines integrate synergistically to establish a service that is dependable, secure, scalable, and trustworthy. The cybersecurity component addresses prompt injection—a vulnerability capable of compromising an AI assistant's operational integrity—and corresponding defensive strategies.
 
 Software
 [Write 50–80 words answering the Software question.]
