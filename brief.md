@@ -37,7 +37,9 @@ Data protection methods include anonymization and pseudonymization, which differ
 Resource: What is personal data? - https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en
 
 My Track: Misconception
-[Write 60–120 words explaining a common misconception about prompt injection, the correct explanation, and cite the resource heading that supports it.]
+A common misconception is that prompt injection vulnerabilities can be completely prevented by using clearly defined system instructions. In practice, malicious instructions may come directly from user input or indirectly from external sources, such as websites and documents. An AI model may struggle to distinguish trusted instructions from untrusted content. Developers should therefore apply defense in depth by separating instructions from retrieved content, limiting tool permissions, and validating sensitive actions. These measures can reduce the likelihood and impact of attacks, but they cannot guarantee complete protection. OWASP discusses this vulnerability in its “Prompt Injection” guidance.
+
+Resource: Prompt Injection - https://genai.owasp.org/llmrisk/llm01-prompt-injection/
 
 Open Question
-[Write one open question in no more than 50 words.]
+How can public-service AI assistants provide useful responses while protecting citizens from malicious inputs, unreliable external information, and privacy risks?
