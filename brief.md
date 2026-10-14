@@ -21,18 +21,18 @@ App Transport Security (ATS) is an iOS security feature that requires network co
 Resource: Preventing Insecure Network Connections - https://developer.apple.com/documentation/security/preventing-insecure-network-connections
 
 Networking
-The Internet Protocol has two main versions, IPv4 and IPv6, which enable devices to communicate across networks. IPv4 uses 32-bit addressing, providing approximately 4.3 billion unique addresses, whereas IPv6 uses 128-bit addressing and supports a much larger address space. As the number of connected devices increases, IPv6 helps address the shortage of available IPv4 addresses and supports the continued growth of Internet-based services. Adopting IPv6 can improve network scalability, although IPv4 continues to operate alongside IPv6 across many network infrastructures.
+IPv4 and IPv6 are versions of the Internet Protocol that allow devices to communicate across networks. IPv4 uses 32-bit addresses, while IPv6 uses 128-bit addresses and provides a much larger address space. IPv6 helps address the shortage of available IPv4 addresses as connected devices and online services grow. However, IPv4 remains widely used, so many networks support both protocols.
 
 Resource: IPv4 and IPv6 Addressing - https://www.cloudflare.com/learning/dns/glossary/what-is-my-ip-address/
 
 
 Cybersecurity
-Prompt injection is a security vulnerability in which malicious instructions attempt to make an AI system ignore its established rules or produce unsafe responses. Direct prompt injection occurs when an attacker places harmful instructions in the user’s input. Indirect prompt injection occurs when an AI system encounters malicious instructions hidden in external sources, such as websites or documents. Two mitigation strategies are separating trusted instructions from untrusted content and limiting the AI system’s permissions, especially when it uses external tools or accesses sensitive information. These measures can reduce risk, but they cannot guarantee complete protection.
+Prompt injection occurs when malicious instructions try to make an AI system ignore its intended rules or produce unsafe responses. Direct prompt injection comes from user input, while indirect prompt injection can be hidden in external content, such as websites or documents. Mitigations include separating trusted instructions from untrusted content, limiting tool permissions, and checking sensitive actions. These defenses reduce risk but cannot guarantee complete protection.
 
 Resource: Prompt Injection - https://genai.owasp.org/llmrisk/llm01-prompt-injection/
 
 Data
-Data protection methods include anonymization and pseudonymization, which differ in how they handle individual identification. Anonymization irreversibly removes identifying information so that a person cannot be identified using reasonably likely means. Pseudonymization replaces direct identifiers with artificial values, such as codes, but additional information may still allow a person’s identity to be recovered. Properly anonymized data may fall outside data protection laws governing personal data, depending on the applicable legal framework. Pseudonymized data generally remains personal data and continues to require appropriate protection.
+Anonymization and pseudonymization are different ways to protect personal data. Anonymization removes identifying information so that a person cannot reasonably be identified. Pseudonymization replaces direct identifiers with values such as codes, but additional information may still reveal the person’s identity. Therefore, pseudonymized data generally remains personal data and needs protection, while properly anonymized data may no longer fall under personal-data rules, depending on the applicable law.
 
 Resource: What is personal data? - https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en
 
